@@ -1,5 +1,5 @@
 Plugin Name: Content Monitor
-Author: Andrew Billits
+Author: DerN3rd
 
 Change Log:
 ----------------------------------------------------------------------

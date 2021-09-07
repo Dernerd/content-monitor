@@ -3,7 +3,7 @@
 Plugin Name: Inhaltsüberwachung
 Plugin URI: https://n3rds.work
 Description: Ermöglicht es Dir, Deine gesamte Webseite auf von Dir definierte Wörter zu überwachen (und bei jeder Verwendung eine E-Mail zu erhalten) - ideal für Webseiten mit Bildungs- oder Bekanntheitsgrad.
-Version: 1.4
+Version: 1.4.1
 Author: WMS N@W
 Author URI: https://n3rds.work
 Text Domain: contentmon
@@ -131,7 +131,7 @@ PERMALINK", 'contentmon' );
 	public function page_main_output() {
 
 		if ( ! current_user_can( 'manage_network_options' ) ) {
-			wp_die( 'Nice Try...' );  //If accessed properly, this message doesn't appear.
+			wp_die( 'Netter Versuch...' );  //If accessed properly, this message doesn't appear.
 		}
 
 		echo '<div class="wrap">';
@@ -141,7 +141,7 @@ PERMALINK", 'contentmon' );
 			update_site_option( "content_monitor_post_monitoring", (int) $_POST['content_monitor_post_monitoring'] );
 			update_site_option( "content_monitor_bad_words", stripslashes( $_POST['content_monitor_bad_words'] ) );
 			?>
-			<div id="message" class="updated fade"><p><?php _e( 'Settings saved.', 'contentmon' ) ?></p></div><?php
+			<div id="message" class="updated fade"><p><?php _e( 'Einstellungen gespeichert.', 'contentmon' ) ?></p></div><?php
 		}
 
 		?>

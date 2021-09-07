@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Inhaltsüberwachung
-Plugin URI: https://n3rds.work
+Plugin URI: https://n3rds.work/docs/inhaltsueberwachung-handbuch/
 Description: Ermöglicht es Dir, Deine gesamte Webseite auf von Dir definierte Wörter zu überwachen (und bei jeder Verwendung eine E-Mail zu erhalten) - ideal für Webseiten mit Bildungs- oder Bekanntheitsgrad.
 Version: 1.4.1
 Author: WMS N@W
